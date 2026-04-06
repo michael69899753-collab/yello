@@ -55,7 +55,7 @@ document.querySelectorAll(".copy_address").forEach((copybtn) => {
         textSpan.innerHTML = "COPIED";
 
         setTimeout(() => {
-            textSpan.innerHTML = "coming soon";
+            textSpan.innerHTML = "311vqqDvV8m2jc6NcfG8E2Y74GnLxGW8xdB9YkRgpump";
         }, 2000);
 
         navigator.clipboard.writeText(addressText);
